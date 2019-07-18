@@ -1,4 +1,4 @@
-package pl.tk.spring.advert.model.domain;
+package pl.tk.spring.advert.domain.model;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
