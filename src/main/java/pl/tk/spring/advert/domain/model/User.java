@@ -19,6 +19,9 @@ public class User {
     @NotEmpty
     @Column(name = "first_name")
     private String firstName;
+    @NotEmpty
+    @Column(name = "last_name")
+    private String lastName;
 
     public User() {
     }
@@ -55,6 +58,14 @@ public class User {
         this.firstName = firstName;
     }
 
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -63,12 +74,13 @@ public class User {
         return Objects.equals(getId(), user.getId()) &&
                 Objects.equals(getUsername(), user.getUsername()) &&
                 Objects.equals(getPassword(), user.getPassword()) &&
-                Objects.equals(getFirstName(), user.getFirstName());
+                Objects.equals(getFirstName(), user.getFirstName())&&
+                Objects.equals(getLastName(), user.getLastName());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getId(), getUsername(), getPassword(), getFirstName());
+        return Objects.hash(getId(), getUsername(), getPassword(), getFirstName(), getLastName());
     }
 
     @Override
@@ -76,6 +88,7 @@ public class User {
         return this.id +
                 this.username +
                 this.password +
-                this.firstName;
+                this.firstName +
+                this.lastName;
     }
 }
