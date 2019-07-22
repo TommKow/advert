@@ -26,13 +26,14 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/register").anonymous()
                 .anyRequest().authenticated()
                 .and()
-                .formLogin()
+            .formLogin()
+                //.loginPage("/login")
                 .defaultSuccessUrl("/index.html")
                 .and()
-                .logout()
+            .logout()
                 .logoutSuccessUrl("/index.html")
                 .and()
-                .csrf()
+            .csrf()
                 .disable();
     }
     @Override
