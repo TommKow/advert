@@ -23,7 +23,19 @@
     <div class="row">
         <div class="col-2"></div>
         <div class="col-8">
-            <%-- Tutaj formularz dodawania nowego ogłoszenia --%>
+            <sec:authorize access="isAuthenticated()">
+                <form method="post" action="/add-advert">
+                    <div class="form-group">
+                        <label for="title">Tytuł</label>
+                        <input type="text" required name="title" id="title"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Treść</label>
+                        <input type="textarea" required name="description" id="description"/>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Dodaj Ogłoszenie</button>
+                </form>
+            </sec:authorize>
         </div>
         <div class="col-2"></div>
     </div>
@@ -64,19 +76,7 @@
         </div>
     </div>
 
-        <sec:authorize access="isAuthenticated()">
-            <form method="post" action="/add-advert">
-                <div class="form-group">
-                    <label for="title">Tytuł</label>
-                    <input type="text" required name="title" id="title"/>
-                </div>
-                <div class="form-group">
-                    <label for="description">Treść</label>
-                    <input type="textarea" required name="description" id="description"/>
-                </div>
-                <button class="btn btn-primary" type="submit">Dodaj Ogłoszenie</button>
-            </form>
-        </sec:authorize>
+
 
 
 </div>
