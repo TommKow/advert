@@ -1,5 +1,7 @@
 package pl.tk.spring.advert.domain.model;
 
+import org.springframework.jmx.export.annotation.ManagedAttribute;
+
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
 import java.util.Objects;
@@ -22,6 +24,8 @@ public class User {
     @NotEmpty
     @Column(name = "last_name")
     private String lastName;
+    @ManyToOne
+    private Advert advert;
 
     public User() {
     }

@@ -53,8 +53,15 @@
 
             </table>
 
+
         </div>
     </div>
+    <sec:authorize access="isAuthenticated()">
+        <label for="title">Title</label>
+        <input type="text"><br>
+        <label for="description">Description</label>
+        <textarea name="description"></textarea>
+    </sec:authorize>
 
 </div>
 </body>

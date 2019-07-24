@@ -3,6 +3,7 @@ package pl.tk.spring.advert.domain.model;
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.Objects;
 
 @Entity
@@ -12,15 +13,18 @@ public class Advert {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+
     @NotEmpty
     private String title;
+
     @NotEmpty
     @Column(columnDefinition = "TEXT")
     private String description;
 
     private LocalDateTime posted;
+
     @OneToMany(mappedBy = "advert" ,cascade = CascadeType.ALL)
-    private User user;
+    private List<User> user;
 
     public Advert() {
     }
@@ -61,11 +65,11 @@ public class Advert {
         this.posted = posted;
     }
 
-    public User getUser() {
+    public List<User> getUser() {
         return user;
     }
 
-    public void setUser(User user) {
+    public void setUser(List<User> user) {
         this.user = user;
     }
 
