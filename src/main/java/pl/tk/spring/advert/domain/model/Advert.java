@@ -23,8 +23,8 @@ public class Advert {
 
     private LocalDateTime posted;
 
-    @OneToMany(mappedBy = "advert" ,cascade = CascadeType.ALL)
-    private List<User> user;
+    @ManyToOne
+    private User user;
 
     public Advert() {
     }
@@ -65,11 +65,11 @@ public class Advert {
         this.posted = posted;
     }
 
-    public List<User> getUser() {
+    public User getUser() {
         return user;
     }
 
-    public void setUser(List<User> user) {
+    public void setUser(User user) {
         this.user = user;
     }
 

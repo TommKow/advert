@@ -4,6 +4,7 @@ import org.springframework.jmx.export.annotation.ManagedAttribute;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
+import java.util.List;
 import java.util.Objects;
 
 @Entity
@@ -24,8 +25,8 @@ public class User {
     @NotEmpty
     @Column(name = "last_name")
     private String lastName;
-    @ManyToOne
-    private Advert advert;
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    private List<Advert> adverts;
 
     public User() {
     }
@@ -70,6 +71,14 @@ public class User {
         this.lastName = lastName;
     }
 
+    public List<Advert> getAdverts() {
+        return adverts;
+    }
+
+    public void setAdverts(List<Advert> adverts) {
+        this.adverts = adverts;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -89,10 +98,6 @@ public class User {
 
     @Override
     public String toString() {
-        return this.id +
-                this.username +
-                this.password +
-                this.firstName +
-                this.lastName;
+        return  this.username;
     }
 }

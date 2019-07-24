@@ -1,6 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
+<jsp:include page="main-menu.jsp"/>
 
 <html>
 <head>
@@ -13,7 +14,7 @@
 <body>
 <div class="container">
 
-    <div class="row" style="margin-top: 40px; margin-bottom: 10px">
+    <%--@declare id="title"--%><%--@declare id="description"--%><div class="row" style="margin-top: 40px; margin-bottom: 10px">
         <div class="col-1"></div>
         <div class="col-6"><h2>Dodaj ogłoszenie</h2></div>
         <div class="col-5"></div>
@@ -47,8 +48,14 @@
                 </thead>
                 <tr>
                     <c:forEach items="${AdvertList}" var="advert">
-                    <td>${advert.id}</td>
-                    </c:forEach>
+                        <tr>
+                            <td>${advert.id}</td>
+                            <td>${advert.title}</td>
+                            <td>${advert.description}</td>
+                            <td>${advert.user}</td>
+                            <td>${advert.posted}</td>
+                        </tr>
+                    </c:forEach><br>
                 </tr>
 
             </table>
@@ -56,12 +63,21 @@
 
         </div>
     </div>
-    <sec:authorize access="isAuthenticated()">
-        <label for="title">Title</label>
-        <input type="text"><br>
-        <label for="description">Description</label>
-        <textarea name="description"></textarea>
-    </sec:authorize>
+
+        <sec:authorize access="isAuthenticated()">
+            <form method="post" action="/add-advert">
+                <div class="form-group">
+                    <label for="title">Tytuł</label>
+                    <input type="text" required name="title" id="title"/>
+                </div>
+                <div class="form-group">
+                    <label for="description">Treść</label>
+                    <input type="textarea" required name="description" id="description"/>
+                </div>
+                <button class="btn btn-primary" type="submit">Dodaj Ogłoszenie</button>
+            </form>
+        </sec:authorize>
+
 
 </div>
 </body>
