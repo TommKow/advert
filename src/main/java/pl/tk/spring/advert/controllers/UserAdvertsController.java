@@ -12,6 +12,6 @@ public class UserAdvertsController {
     @GetMapping("/user-adverts")
     public String userAdverts(Model model, Principal principal) {
         
-        return "";
+        return "user-advert-page";
     }
 }

@@ -27,5 +27,8 @@
         <form class="form-inline mt-3" method="post" action="/logout">
             <button class="btn btn-outline-primary" type="submit">Wyloguj</button>
         </form>
+        <form class="form-inline mt-3" method="get" action="/user-adverts">
+            <button class="btn btn-outline-primary" type="submit">Twoje ogłoszenia</button>
+        </form>
     </sec:authorize>
 </nav>
