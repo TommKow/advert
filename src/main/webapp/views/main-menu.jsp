@@ -27,8 +27,9 @@
         <form class="form-inline mt-3" method="post" action="/logout">
             <button class="btn btn-outline-primary" type="submit">Wyloguj</button>
         </form>
-        <form class="form-inline mt-3" method="get" action="/user-adverts">
-            <button class="btn btn-outline-primary" type="submit">Twoje ogłoszenia</button>
-        </form>
+<%--        <form class="form-inline mt-3" method="get" action="/user-adverts?userId=${advert.user.id}">--%>
+<%--            <button class="btn btn-outline-primary" type="submit">Twoje ogłoszenia</button>--%>
+<%--        </form>--%>
+        <a href="/user-adverts/${user.id}">Twoje ogłoszenia</a>
     </sec:authorize>
 </nav>

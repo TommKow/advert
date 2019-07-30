@@ -59,7 +59,7 @@
                 </tr>
                 </thead>
                 <tr>
-                    <c:forEach items="${AdvertList}" var="advert">
+                    <c:forEach items="${userAdverts}" var="advert">
                 <tr>
                     <td>${advert.id}</td>
                     <td>${advert.title}</td>
