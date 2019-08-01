@@ -1,6 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" %>
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: lightskyblue">
     <a class="navbar-bran mr-2" href="https://github.com/TommKow">TommKow</a>
@@ -27,9 +28,8 @@
         <form class="form-inline mt-3" method="post" action="/logout">
             <button class="btn btn-outline-primary" type="submit">Wyloguj</button>
         </form>
-<%--        <form class="form-inline mt-3" method="get" action="/user-adverts?userId=${advert.user.id}">--%>
-<%--            <button class="btn btn-outline-primary" type="submit">Twoje ogłoszenia</button>--%>
-<%--        </form>--%>
-        <a href="/user-adverts/${user.id}">Twoje ogłoszenia</a>
+
+            <a href="/user-adverts/${userId}">Twoje ogłoszenia</a>
+
     </sec:authorize>
 </nav>
