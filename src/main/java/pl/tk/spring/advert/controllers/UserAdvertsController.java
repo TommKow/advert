@@ -1,10 +1,13 @@
 package pl.tk.spring.advert.controllers;
 
+import com.sun.jmx.snmp.SnmpUnknownModelLcdException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import pl.tk.spring.advert.domain.model.Advert;
 import pl.tk.spring.advert.domain.model.User;
 import pl.tk.spring.advert.domain.repositories.AdvertRepository;
 
@@ -25,5 +28,18 @@ public class UserAdvertsController {
         //id = user.getId();
         model.addAttribute("userAdverts", advertRepository.findAllByUserIdOrderByPostedDesc(userId));
         return "user-advert-page";
+    }
+    @GetMapping("/{userId}/delete-advert/{id}")
+    public String deleteAdvert(@PathVariable("id") Long advertId,@PathVariable("userId") Long userId, Principal principal, Model model) {
+        Advert advert = advertRepository.getOne(advertId);
+        if(advert != null) {
+            advert.setUser(null);
+            advertRepository.delete(advert);
+
+            return "redirect:/user-adverts";
+        }
+        return "there is no adverts !!!";
+
+
     }
 }

@@ -67,8 +67,14 @@
                     <td>${advert.user}</td>
                     <td>${advert.posted}</td>
 
+
+
                     <td><a class="btn btn-primary" href="" role="button">Edytuj</a></td>
-                    <td><a class="btn btn-primary" href="" role="button">Usuń</a></td>
+                    <form method="get" action="/user-adverts/delete-advert/${advert.id}">
+                        <input type="hidden" name="${userId}">
+                        <input type="submit" value="Usuń">
+                    </form>
+<%--                    <td><a class="btn btn-primary" href="/user-adverts/delete-advert/${advert.id}" role="button">Usuń</a></td>--%>
                 </tr>
                 </c:forEach><br>
                 </tr>
