@@ -1,0 +1,11 @@
+/home/tomasz/CL/advert/src/main/java/pl/tk/spring/advert/domain/repositories/UserRepository.java
+/home/tomasz/CL/advert/src/main/java/pl/tk/spring/advert/config/SecurityConfig.java
+/home/tomasz/CL/advert/src/main/java/pl/tk/spring/advert/controllers/HomePageController.java
+/home/tomasz/CL/advert/src/main/java/pl/tk/spring/advert/AdvertApplication.java
+/home/tomasz/CL/advert/src/main/java/pl/tk/spring/advert/controllers/UserAdvertsController.java
+/home/tomasz/CL/advert/src/main/java/pl/tk/spring/advert/domain/model/User.java
+/home/tomasz/CL/advert/src/main/java/pl/tk/spring/advert/controllers/RegistrationController.java
+/home/tomasz/CL/advert/src/main/java/pl/tk/spring/advert/domain/repositories/AdvertRepository.java
+/home/tomasz/CL/advert/src/main/java/pl/tk/spring/advert/domain/model/Advert.java
+/home/tomasz/CL/advert/src/main/java/pl/tk/spring/advert/controllers/AdvertController.java
+/home/tomasz/CL/advert/src/main/java/pl/tk/spring/advert/controllers/LoginController.java

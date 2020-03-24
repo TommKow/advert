@@ -1,0 +1,11 @@
+pl/tk/spring/advert/controllers/LoginController.class
+pl/tk/spring/advert/controllers/AdvertController.class
+pl/tk/spring/advert/domain/repositories/UserRepository.class
+pl/tk/spring/advert/AdvertApplication.class
+pl/tk/spring/advert/controllers/RegistrationController.class
+pl/tk/spring/advert/domain/model/User.class
+pl/tk/spring/advert/config/SecurityConfig.class
+pl/tk/spring/advert/domain/repositories/AdvertRepository.class
+pl/tk/spring/advert/domain/model/Advert.class
+pl/tk/spring/advert/controllers/UserAdvertsController.class
+pl/tk/spring/advert/controllers/HomePageController.class

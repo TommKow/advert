@@ -29,14 +29,17 @@ public class UserAdvertsController {
         model.addAttribute("userAdverts", advertRepository.findAllByUserIdOrderByPostedDesc(userId));
         return "user-advert-page";
     }
-    @GetMapping("/{userId}/delete-advert/{id}")
+    @PostMapping("/{userId}/delete-advert/{id}")
     public String deleteAdvert(@PathVariable("id") Long advertId,@PathVariable("userId") Long userId, Principal principal, Model model) {
         Advert advert = advertRepository.getOne(advertId);
-        if(advert != null) {
-            advert.setUser(null);
-            advertRepository.delete(advert);
+        if((advert.getUser().getUsername()).equals(principal.getName())) {
+            if(advert != null) {
+                advert.setUser(null);
+                advertRepository.delete(advert);
 
-            return "redirect:/user-adverts";
+                return "redirect:/user-adverts";
+        }
+
         }
         return "there is no adverts !!!";
 

@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2219a1ef-aec4-45b0-9c98-a40ee509a4a0" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="2219a1ef-aec4-45b0-9c98-a40ee509a4a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_9_0_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jsp_api_9_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advert.iml" beforeDir="false" afterPath="$PROJECT_DIR$/advert.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/controllers/UserAdvertsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/controllers/UserAdvertsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/user-advert-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/user-advert-page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/tk/spring/advert/controllers/UserAdvertsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/tk/spring/advert/controllers/UserAdvertsController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,115 +22,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/controllers/UserAdvertsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="33" column="57" lean-forward="true" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/home-page.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="29" column="67" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/user-advert-page.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="73" column="62" selection-start-line="73" selection-start-column="62" selection-end-line="73" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/main-menu.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/controllers/HomePageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="27" column="78" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="189" selection-start-line="189" selection-end-line="189" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/domain/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
-              <folding>
-                <element signature="e#2347#2348#0" expanded="true" />
-                <element signature="e#2384#2385#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/controllers/AdvertController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/domain/repositories/UserRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -133,171 +34,65 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/AdvertApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/controllers/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/login-page.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/controllers/RegistrationController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/config/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/controllers/AdvertController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/domain/model/Advert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/domain/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/home-page.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/domain/repositories/AdvertRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/domain/repositories/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/main-menu.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/controllers/HomePageController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/user-advert-page.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/controllers/UserAdvertsController.java" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="7" />
-    <option name="y" value="70" />
-    <option name="width" value="1305" />
-    <option name="height" value="555" />
-  </component>
+  <component name="ProjectId" id="1QCHR1Ny7TKJWnubRfU5UTJzd8V" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="advert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advert" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advert" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advert" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advert" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advert" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advert" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advert" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Task_Planner" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.AdvertApplication">
+    <configuration name="Heroku Deploy" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="heroku:deploy" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="AdvertApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="advert" />
       <extension name="coverage">
@@ -311,6 +106,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Maven.Heroku Deploy" />
+      <item itemvalue="Spring Boot.AdvertApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.AdvertApplication" />
@@ -333,363 +132,100 @@
       <workItem from="1564511279571" duration="10373000" />
       <workItem from="1564590771644" duration="328000" />
       <workItem from="1564677135941" duration="8748000" />
-      <workItem from="1564841091431" duration="6741000" />
+      <workItem from="1564841091431" duration="6905000" />
+      <workItem from="1565026655942" duration="1961000" />
+      <workItem from="1565195070591" duration="599000" />
+      <workItem from="1567267653266" duration="67000" />
+      <workItem from="1567267791282" duration="792000" />
+      <workItem from="1567270279051" duration="1167000" />
+      <workItem from="1567694884985" duration="2779000" />
+      <workItem from="1568298059661" duration="2757000" />
+      <workItem from="1570047442489" duration="352000" />
+      <workItem from="1570047887501" duration="69000" />
+      <workItem from="1570204608297" duration="2280000" />
+      <workItem from="1570462197560" duration="3944000" />
+      <workItem from="1572894614316" duration="335000" />
+      <workItem from="1572895037322" duration="1224000" />
+      <workItem from="1573064275147" duration="1194000" />
+      <workItem from="1574361602276" duration="2689000" />
+      <workItem from="1576260662186" duration="2150000" />
+      <workItem from="1585079173943" duration="94000" />
+      <workItem from="1585079570160" duration="5721000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53268000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="51" y="25" width="1315" height="743" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27817178" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29641694" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.29641694" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31921825" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32899022" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/AdvertApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.5.RELEASE/spring-security-config-5.1.5.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="133" column="67" lean-forward="true" selection-start-line="133" selection-start-column="67" selection-end-line="133" selection-end-column="67" />
-          <folding>
-            <element signature="e#6777#6778#0" expanded="true" />
-            <element signature="e#6822#6823#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/javax/sql/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1238">
-          <caret line="101" column="72" selection-start-line="101" selection-start-column="72" selection-end-line="101" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/domain/model/Advert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1264#1265#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#1329#1330#0" expanded="true" />
-            <element signature="e#1361#1362#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/main.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.21/tomcat-embed-core-9.0.21.jar!/javax/servlet/http/HttpServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-jasper/9.0.21/tomcat-embed-jasper-9.0.21.jar!/javax/servlet/jsp/PageContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/domain/repositories/AdvertRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret line="117" column="18" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/security/Principal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="37" column="3" lean-forward="true" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/config/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/login-page.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/registration-page.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/controllers/RegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/controllers/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/domain/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
-          <folding>
-            <element signature="e#2347#2348#0" expanded="true" />
-            <element signature="e#2384#2385#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/domain/repositories/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="189" selection-start-line="189" selection-end-line="189" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/controllers/AdvertController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/home-page.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="67" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/main-menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/user-advert-page.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="73" column="62" selection-start-line="73" selection-start-column="62" selection-end-line="73" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/controllers/HomePageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="27" column="78" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/controllers/UserAdvertsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="33" column="57" lean-forward="true" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>advert</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="166" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585081657059">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="166" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog/51.27.1315.741@51.27.1315.741" timestamp="1585081657059" />
+    <state x="412" y="188" width="583" height="416" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585084537943">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="412" y="188" width="583" height="416" key="#com.intellij.fileTypes.FileTypeChooser/51.27.1315.741@51.27.1315.741" timestamp="1585084537943" />
+    <state width="1269" height="273" key="GridCell.Tab.0.bottom" timestamp="1585085185191">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state width="1269" height="273" key="GridCell.Tab.0.bottom/51.27.1315.741@51.27.1315.741" timestamp="1585085185191" />
+    <state width="1269" height="273" key="GridCell.Tab.0.center" timestamp="1585085185190">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state width="1269" height="273" key="GridCell.Tab.0.center/51.27.1315.741@51.27.1315.741" timestamp="1585085185190" />
+    <state width="1269" height="273" key="GridCell.Tab.0.left" timestamp="1585085185190">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state width="1269" height="273" key="GridCell.Tab.0.left/51.27.1315.741@51.27.1315.741" timestamp="1585085185190" />
+    <state width="1269" height="273" key="GridCell.Tab.0.right" timestamp="1585085185190">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state width="1269" height="273" key="GridCell.Tab.0.right/51.27.1315.741@51.27.1315.741" timestamp="1585085185190" />
+    <state width="1269" height="273" key="GridCell.Tab.1.bottom" timestamp="1585085185191">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state width="1269" height="273" key="GridCell.Tab.1.bottom/51.27.1315.741@51.27.1315.741" timestamp="1585085185191" />
+    <state width="1269" height="273" key="GridCell.Tab.1.center" timestamp="1585085185191">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state width="1269" height="273" key="GridCell.Tab.1.center/51.27.1315.741@51.27.1315.741" timestamp="1585085185191" />
+    <state width="1269" height="273" key="GridCell.Tab.1.left" timestamp="1585085185191">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state width="1269" height="273" key="GridCell.Tab.1.left/51.27.1315.741@51.27.1315.741" timestamp="1585085185191" />
+    <state width="1269" height="273" key="GridCell.Tab.1.right" timestamp="1585085185191">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state width="1269" height="273" key="GridCell.Tab.1.right/51.27.1315.741@51.27.1315.741" timestamp="1585085185191" />
+    <state x="191" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1585084508378">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="191" y="27" width="1024" height="741" key="SettingsEditor/51.27.1315.741@51.27.1315.741" timestamp="1585084508378" />
+    <state x="437" y="130" width="540" height="540" key="StructurePopup" timestamp="1585081695857">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="437" y="130" width="540" height="540" key="StructurePopup/51.27.1315.741@51.27.1315.741" timestamp="1585081695857" />
+    <state x="364" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585079191330">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="364" y="225" key="com.intellij.ide.util.TipDialog/51.27.1315.741@51.27.1315.741" timestamp="1585079191330" />
+    <state x="372" y="175" key="run.anything.popup" timestamp="1585084890108">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="372" y="175" key="run.anything.popup/51.27.1315.741@51.27.1315.741" timestamp="1585084890108" />
   </component>
 </project>
