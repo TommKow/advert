@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2219a1ef-aec4-45b0-9c98-a40ee509a4a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_9_0_0_M6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jsp_api_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advert.iml" beforeDir="false" afterPath="$PROJECT_DIR$/advert.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/controllers/UserAdvertsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/tk/spring/advert/controllers/UserAdvertsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/user-advert-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/user-advert-page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/tk/spring/advert/controllers/UserAdvertsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/tk/spring/advert/controllers/UserAdvertsController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +140,7 @@
       <workItem from="1574361602276" duration="2689000" />
       <workItem from="1576260662186" duration="2150000" />
       <workItem from="1585079173943" duration="94000" />
-      <workItem from="1585079570160" duration="5721000" />
+      <workItem from="1585079570160" duration="6290000" />
     </task>
     <servers />
   </component>

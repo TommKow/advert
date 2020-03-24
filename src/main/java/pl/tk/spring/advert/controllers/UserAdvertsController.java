@@ -1,6 +1,5 @@
 package pl.tk.spring.advert.controllers;
 
-import com.sun.jmx.snmp.SnmpUnknownModelLcdException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
