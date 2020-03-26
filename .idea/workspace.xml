@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2219a1ef-aec4-45b0-9c98-a40ee509a4a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/tk/spring/advert/controllers/UserAdvertsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/tk/spring/advert/controllers/UserAdvertsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.tk.spring.advert.AdvertApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.tk.spring.advert.AdvertApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/pl.tk.spring.advert.AdvertApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/pl.tk.spring.advert.AdvertApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +150,7 @@
       <workItem from="1576260662186" duration="2150000" />
       <workItem from="1585079173943" duration="94000" />
       <workItem from="1585079570160" duration="7280000" />
-      <workItem from="1585128457123" duration="17523000" />
+      <workItem from="1585128457123" duration="18505000" />
     </task>
     <servers />
   </component>
