@@ -81,6 +81,15 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 
+
+			</plugin>
+			<plugin>
+				<groupId>org.flywaydb</groupId>
+				<artifactId>flyway-maven-plugin</artifactId>
+				<configuration>
+					<!--suppress UnresolvedMavenProperty -->
+					<url>${mysql://bbb1e0e01b633d:1f42b4ce@us-cdbr-iron-east-01.cleardb.net/heroku_76259dc584ae636?reconnect=true}</url>
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
